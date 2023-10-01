@@ -1,10 +1,7 @@
 #include "mylib.h"
 
-
-
 int password()
 {
-	int i = 0;
 	credentials *students;
 	students = malloc(sizeof(credentials));
 

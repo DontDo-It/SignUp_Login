@@ -1,3 +1,5 @@
+#include "mylib.h"
+
 int isEmailValid(char *email)
 {
 	char *atSign = strrchr(email, '@');

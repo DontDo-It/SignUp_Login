@@ -18,12 +18,12 @@ int My_isdigit(char *str) {
 
 int SignUp() {
 	int i = 0;
-	struct credentials *students;
-	students = malloc(sizeof(struct credentials));
+	credentials *students;
+	students = malloc(sizeof(credentials));
 
 	if (students == NULL) {
 		printf("Memory allocation failed.\n");
-		return i--;
+		return i--; 
 	}
 
 	students->fname = malloc(MAX_LENGTH * sizeof(char));
